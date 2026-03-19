@@ -60,7 +60,7 @@ Create a `.env` file in the `Backend/` directory:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secure_random_string
-OPENAI_API_KEY=your_openai_key
+GOOGLE_GEMINI_API_KEY=your_GEMINI_key
 
 ```
 
@@ -89,7 +89,7 @@ npm run dev
 | **Frontend** | React, Vite, TailwindCSS / SASS |
 | **Backend** | Node.js, Express.js |
 | **Database** | MongoDB (Mongoose) |
-| **AI** | OpenAI API (GPT Models) |
+| **AI** | Gemini API (Gemini Models) |
 | **Auth** | JSON Web Tokens (JWT) |
 
 ---
